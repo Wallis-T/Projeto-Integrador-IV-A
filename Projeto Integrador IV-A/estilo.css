@@ -1,0 +1,180 @@
+/* Textos base utilizados*/
+.texto {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;   
+}
+
+/* Input base utilizado*/
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 15px;
+}  
+
+/* Header base utilizado*/
+.header{
+    color: rgba(126, 126, 113);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;  
+}
+
+/* Background da Landing Page*/
+.background{
+    background-image: url(imagens/fundo.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-attachment: fixed;
+}
+
+/* Divisória da parte introdutória da LP */
+.intro{
+    position: absolute;
+    top: -300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    border: 1px solid rgb(207, 203, 197);
+    min-width: 1000px;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Divisória dos Sliders da LP*/
+.slider {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    min-width: 1000px;
+    max-width: 1000px;
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    }
+    
+/* Divisória de cada Slide da LP*/
+.slide {
+    display: none;
+    max-height: 400px;
+    min-height: 250px;
+    padding: 20px 40px;
+    font-size: 18px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+/* Primeiro Slide e sua definição*/
+.slide.active {
+    display: block;
+    }
+
+/* Botões Call to Action e susa respectivas div's*/
+button.botaocta1, button.botaocta2, button.botaocta3{
+    position:absolute;
+    transform: translate(-50%, -100%);
+    bottom: -30px;
+    left: 350px;
+    width: 300px;
+    background-color: white;
+    padding: 5px;
+    border: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Botões dos formulários*/
+.botaoform{
+    background: rgba(0,0,0,0.5);
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+/* Localizações dos Botões CTA */
+button.botaocta1{
+    left: 350px;}
+button.botaocta2{
+    left: 50%;}
+button.botaocta3{
+    left: -350px;}
+
+div.doador{
+    position:absolute;
+    transform: translate(-50%, -50%);    
+    top: 630px;
+    left: -350px;
+    width: 200px;
+    height: 450px;
+    background-color: white;
+    padding: 30px 70px;
+    border: 5px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+div.voluntario{
+    position:absolute;
+    transform: translate(-50%, -50%);    
+    top: 630px;
+    left: 350px;
+    width: 200px;
+    height: 450px;
+    background-color: white;
+    padding: 30px 70px;
+    border: 5px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+/* Divisória dos Horários*/
+.horarios{
+    position: absolute;
+    top: 1100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    border: 1px solid rgb(207, 203, 197);
+    min-width: 1000px;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Botões de Prévia e Próximo dos Sliders*/
+button.prev, button.next {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: rgba(0,0,0,0.5);
+color: white;
+border: none;
+padding: 100px 10px ;
+cursor: pointer;
+font-size: 20px;
+border-radius: 50%;
+}
+
+/*Localizações dos botões Sliders */
+button.prev { left: 5px; }
+button.next { right: 5px; }
+button:hover { background: rgba(0, 0, 0, 0); }
+
+/* Rodapé da Página e sua localização*/
+.rodape{
+    position: absolute;
+    translate: -50% -50%;
+    width: 400px;
+    top: 1500px;
+    color: black;
+    padding: 20px;
+  }
