@@ -8,7 +8,8 @@
         <script src="script.js" defer></script>
     </head>
     <body class="background">
-        
+
+            <!-- Cabeçalho da Landing Page-->
             <header>
                 <div class="intro">
                     <h1 class=header>Asilo de Mendigos de Pelotas<br> Abrigo de Idosos</h1>
@@ -16,6 +17,8 @@
                 </div>
             </header>
         <main>
+
+            <!-- Botões Call to Action da Página-->
             <button class="botaocta1" onclick="document.getElementById('horarios').scrollIntoView({behavior: 'smooth', block: 'center'})">
                 <h1 class="header">Horários e Contato</h1>
             </button>
@@ -28,6 +31,7 @@
                 <h1 class="header">Quem Somos</h1>
             </button>
 
+            <!-- Divisória contendo o Formulário de Doação-->
             <div class="doador" id="doador">
                 <h1 class="header">Contribua!</h1>
                 <br>
@@ -40,6 +44,7 @@
                 <button class="botaoform" onclick="return ValidarDoacao()">Enviar</button>
             </div>
 
+            <!-- Divisória contendo o Formulário de Cadastro de Voluntário-->
             <div class="voluntario" id="voluntario">
                 <h1 class="header">Voluntarie-se</h1>
                 <br>
@@ -52,35 +57,41 @@
                 <input type="password" id="senhanovamente" placeholder="Confirme a Senha:">
                 <br><br>
                 <button class="botaoform" onclick="return ValidarVoluntario()">Enviar</button>
+            
+            <!-- Slider da Landing Page-->
             </div>
                 <div class="slider" id="slider">
                 <div class="slides">
+
+                    <!-- Slide contendo as Informações "Nossa Missão"-->
                     <div class="slide active">
                     <h1 class="header">Nossa Missão</h1>
                     <br>
                     <p class="texto">Acolher e abrigar idosos proporcionando-lhes qualidade de vida, protegendo sua saúde, respeitando sua cidadania e oferecendo condições de uma vida digna.</p>
                     </div>
-                
+                    
+                    <!-- Slide contendo as Informações "Nossa História"-->
                     <div class="slide">
                     <h1 class="header">Nossa História</h1>
                     <p class="texto">Fundado em 1882 por iniciativa comunitária e incentivo do jornalista Antônio Joaquim Dias, o abrigo teve sua pedra fundamental lançada em 1887 e foi inaugurado em 1892, com projeto do engenheiro José de Magalhães. Em 1928, a fachada foi reformada pelo arquiteto Caetano Casaretto. Desde então, acolhe idosos em vulnerabilidade, mantendo-se sobretudo por doações e apoio da comunidade. Em 2022, celebrou 140 anos de existência, consolidado como uma das instituições sociais mais antigas de Pelotas.</p>
                     </div>
-                
+                    
+                    <!-- Slide contendo as Informações "Como nos Encontrar"-->
                     <div class="slide">
                     <h1 class="header">Como nos Encontrar</h1>
                     <p class="texto">📍 Parque Dom Antônio Zattera, 338 Pelotas, RS <br>
                         📞 (53) 3227-7959 | (53) 3222-4762 <br>
                         🤝 Ajude com doações e seja parte dessa corrente de amor!</p>
                         <br>
-                    
                     </div>
-                    <!-- Botões -->
+                    
+                    <!-- Botões Avançar e retornar -->
                     <button class="prev">❮</button>
                     <button class="next">❯</button>  
-                    <!-- -->
                     </div> 
         </main>
-                    
+
+        <!-- Rodapé da Landing Page-->
         <footer>  
             <div class="horarios" id="horarios">
                 <h1 class="header">Horários e Contato</h1>
@@ -88,6 +99,7 @@
                 <p class="texto">Para mais Informações entre em contato com os números: <br> (53) 3227-7959 & (53) 3222-4762</p>
             </div>
 
+            <!-- Parte do Rodapé que contém os Direitos autorais da Página-->
             <div class="rodape">
                 <p class="texto">&copy; 2025 Asilo de Mendigos de Pelotas - Abrigo de Idosos  Pelotas - RS</p>
             </div>
